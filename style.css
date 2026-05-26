@@ -1,0 +1,50 @@
+body {
+  font-family: Arial;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.container {
+  background: #2d2d2d;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px gray;
+  text-align: center;
+  color: white;
+}
+
+h1{
+  color: white;
+}
+
+input {
+  width: 60%;
+  padding: 8px;
+  border-radius: 5px solid black;
+}
+
+button {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+li {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li button{
+  background-color: red;
+  color: #f4f4f4;
+}
